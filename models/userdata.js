@@ -11,6 +11,4 @@ const UsersSchema = new Schema({
     password : String,
   });
   const userData = model('userData', UsersSchema);
-
-//   module.exports = userData;
 module.exports = userData
